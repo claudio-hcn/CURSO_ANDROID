@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                     repository.getPersons()
                 }
                 for (persona in listPerson) {
-                    textViewPerson.append("Nombre: ${persona.name} ${persona.surname} | Edad: ${persona.edad} \n")
+                    textViewPerson.append("Nombre: ${persona.name} || Apellido:${persona.surname} || Edad: ${persona.edad} \n")
                 }
                 progressBar.visibility = View.INVISIBLE
             }
